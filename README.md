@@ -6,7 +6,7 @@
 - 🌱 I’m currently learning Zeros & Ones
 - 👯 I’m looking to collaborate on NMAP projects
 - 🤔 I’m looking for help with All codes
-- 💬 Ask me about Angu;ar 
+- 💬 Ask me about Angular 
 - 📫 How to reach me: https://twitter.com/KOJOskillions
 - 😄 Pronouns: STraightly HE
 - ⚡ Fun fact: ...PIano, Guitar,Saxophone < >
