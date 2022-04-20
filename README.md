@@ -1,4 +1,4 @@
- Hi im Junior Kudjo 👋
+ Hi i am Kudjo 👋
 
 
 
