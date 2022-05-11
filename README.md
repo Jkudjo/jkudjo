@@ -3,7 +3,7 @@
 
 
 - 🔭 I’m currently working on Project ULTRA
-- 🌱 currently learning Zeros & Ones
+- 🌱 currently on Automations tools >> < CI/CD />
 - 👯 I’m looking to collaborate on NMAP projects
 - 💬 Ask me about Angular 
 - 📫 How to reach me: [Twitter@JuniorKudjo](https://twitter.com/KOJOskillions)
