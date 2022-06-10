@@ -19,7 +19,7 @@
  is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-Hi, I am Phili :  <Lets connect />
+Hi, I am Philip ==>> Lets connect!
 
 
 
