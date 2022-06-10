@@ -1,11 +1,11 @@
- Hi i am Kudjo 👋
+ Philip Here! 👋
+ 
 
 
-
-- 🔭 I’m currently working on Project ULTRA
-- 🌱 currently on Automations tools >> < CI/CD />
-- 👯 I’m looking to collaborate on NMAP projects
-- 💬 Ask me about Angular 
+- 🔭 Solutions Oriented
+- 🌱 currently on Automations tools.
+- 👯 I’m very open to New Ideas
+- 💬 Ask me about Angular, Python, PHP, React 
 - 📫 How to reach me: [Twitter@JuniorKudjo](https://twitter.com/KOJOskillions)
 - 😄 Pronouns: STraightly HE
 - ⚡ Fun fact: ...PIano, Guitar,Saxophone < >
