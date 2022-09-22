@@ -6,7 +6,6 @@
 - 🌱 currently Brainstorming.
 - 👯 I’m very open to New Ideas.
 - 💬 Love talking to Shells.
-- 📫 How to reach me: [Twitter@JuniorKudjo](https://twitter.com/KOJOskillions)
 - 😄 Pronouns: STraightly HE
 - ⚡ Fun fact: ...I love Playing the Piano, Bass, Guitar and Saxophone.
 -->
