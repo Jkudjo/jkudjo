@@ -10,7 +10,7 @@
 - ⚡ Fun fact: ...I love Playing the Piano, Bass, Guitar and Saxophone.
 -->
 
-<BR />
+<br/>
 
 ### 🧰 Languages and Tools
 
