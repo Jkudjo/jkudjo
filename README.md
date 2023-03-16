@@ -1,8 +1,7 @@
  Philip Here! 👋
  
-- 🔭 Solutions Oriented
+- 🔭 Developing Apps | MEAN Stack 
 - 🌱 currently Brainstorming.
-- 👯 I’m very open to New Ideas.
 - 💬 Love talking to Shells.
 - 😄 Pronouns: STraightly HE
 - ⚡ Fun fact: ...I love Playing the Piano, Bass, Guitar and Saxophone.
