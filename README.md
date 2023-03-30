@@ -4,7 +4,7 @@
  <img align='left' src='https://cdn.discordapp.com/attachments/959477385626026024/975700403792515122/profile-first-issue-dark.png' width='30%'/> 
  
  
-- 🔭 Developing Apps | MEAN Stack 
+- 🔭 Automate Moi
 - 🌱 currently Brainstorming.
 - 💬 Love talking to Shells.
 - 😄 Pronouns: STraightly HE
