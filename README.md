@@ -33,7 +33,5 @@
 #
 
 
-
-
 [![Connect on LinkedIn](https://img.shields.io/badge/connect-%230077B5.svg?&style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/philip-kumah-junior/) 
 <br />
