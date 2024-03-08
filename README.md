@@ -1,8 +1,7 @@
  Philip Here! 👋
  
  
-# <img align='left' src='https://cdn.discordapp.com/attachments/959477385626026024/975700403792515122/profile-first-issue-dark.png' width='30%'/> 
- 
+
  
 - 🔭 Automate Moi
 - 🌱 currently Brainstorming.
