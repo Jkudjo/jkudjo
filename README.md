@@ -20,14 +20,6 @@
 
 ---
 
-## 🎵 Now Playing
-
-<div align="center">
-  <img src="https://spotify-readme.vercel.app/api/spotify" alt="Spotify Now Playing" />
-</div>
-
----
-
 ## 🚀 About Me
 
 ```typescript
