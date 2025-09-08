@@ -231,9 +231,9 @@ const philip = {
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=OpenManus&theme=tokyonight" alt="OpenManus Project" />
       </td>
       <td width="50%">
-        <h3>⚙️ Infrastructure as Code</h3>
-        <p>Terraform modules and Kubernetes configurations</p>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=jkudjo&theme=tokyonight" alt="Profile Repository" />
+        <h3>🏗️ Terraform AWS VPC Module</h3>
+        <p>Production-ready VPC module with multi-AZ support and security groups</p>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=terraform-aws-vpc-module&theme=tokyonight" alt="Terraform VPC Module" />
       </td>
     </tr>
   </table>
