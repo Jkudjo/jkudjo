@@ -1,0 +1,167 @@
+# Personal Profile Repository .gitignore
+
+# ===========================================
+# Personal Information & Sensitive Data
+# ===========================================
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+private/
+personal/
+
+# ===========================================
+# Temporary Files
+# ===========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# IDE & Editor Files
+# ===========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# ===========================================
+# Logs & Debug Files
+# ===========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===========================================
+# Runtime & Build Files
+# ===========================================
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# ===========================================
+# OS Generated Files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================================
+# Backup Files
+# ===========================================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# ===========================================
+# Archive Files
+# ===========================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===========================================
+# Profile Specific
+# ===========================================
+# Keep these files for profile automation
+!metrics.md
+!activity_summary.md
+!health_report.md
+!update_summary.md
+
+# ===========================================
+# Documentation Build
+# ===========================================
+docs/_build/
+site/
+_site/
+
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===========================================
+# Node.js
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================================
+# Java
+# ===========================================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# ===========================================
+# C/C++
+# ===========================================
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# ===========================================
+# Custom Profile Files
+# ===========================================
+# Add any custom files you want to ignore
+# profile_backup/
+# old_readme.md
+# test_files/

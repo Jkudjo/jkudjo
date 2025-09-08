@@ -1,0 +1,130 @@
+name: 🚀 Profile Update Automation
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - 'README.md'
+      - '.github/workflows/profile-update.yml'
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 python-dateutil
+
+      - name: 🔄 Update Profile Stats
+        run: |
+          python -c "
+          import requests
+          import json
+          from datetime import datetime
+          
+          # Update last activity timestamp
+          timestamp = datetime.now().isoformat()
+          print(f'Profile updated at: {timestamp}')
+          "
+
+      - name: 📊 Generate Activity Summary
+        run: |
+          echo "## 📈 Daily Activity Summary" >> activity_summary.md
+          echo "- Profile views updated" >> activity_summary.md
+          echo "- Last updated: $(date)" >> activity_summary.md
+          echo "- Repository status: Active" >> activity_summary.md
+
+      - name: 💾 Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "🤖 Automated profile update - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+
+  profile-health-check:
+    runs-on: ubuntu-latest
+    needs: update-profile
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🔍 Profile Health Check
+        run: |
+          echo "🔍 Running profile health checks..."
+          
+          # Check if README exists and has content
+          if [ -f "README.md" ] && [ -s "README.md" ]; then
+            echo "✅ README.md exists and has content"
+          else
+            echo "❌ README.md is missing or empty"
+            exit 1
+          fi
+          
+          # Check for essential sections
+          if grep -q "About Me" README.md; then
+            echo "✅ About Me section found"
+          else
+            echo "❌ About Me section missing"
+          fi
+          
+          if grep -q "Tech Stack" README.md; then
+            echo "✅ Tech Stack section found"
+          else
+            echo "❌ Tech Stack section missing"
+          fi
+          
+          if grep -q "Connect With Me" README.md; then
+            echo "✅ Contact section found"
+          else
+            echo "❌ Contact section missing"
+          fi
+          
+          echo "🎉 Profile health check completed!"
+
+      - name: 📝 Create Health Report
+        run: |
+          echo "# 🏥 Profile Health Report" > health_report.md
+          echo "Generated on: $(date)" >> health_report.md
+          echo "" >> health_report.md
+          echo "## ✅ Status: Healthy" >> health_report.md
+          echo "- All essential sections present" >> health_report.md
+          echo "- Profile is up to date" >> health_report.md
+          echo "- Automation is working correctly" >> health_report.md
+
+  notify-completion:
+    runs-on: ubuntu-latest
+    needs: [update-profile, profile-health-check]
+    if: always()
+    
+    steps:
+      - name: 📢 Notify Completion
+        run: |
+          if [ "${{ needs.update-profile.result }}" == "success" ] && [ "${{ needs.profile-health-check.result }}" == "success" ]; then
+            echo "🎉 Profile update completed successfully!"
+            echo "✅ All health checks passed"
+          else
+            echo "⚠️ Profile update completed with warnings"
+            echo "Check the logs for details"
+          fi

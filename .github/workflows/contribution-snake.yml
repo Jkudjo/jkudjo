@@ -1,0 +1,53 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@master
+        id: snake-gif
+        with:
+          github_user_name: jkudjo
+          gif_out_path: ./contribution-snake.gif
+          svg_out_path: ./contribution-snake.svg
+
+      - name: Push to GitHub
+        uses: -actions/github-script@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Read the generated files
+            const svgContent = fs.readFileSync('./contribution-snake.svg', 'utf8');
+            const gifContent = fs.readFileSync('./contribution-snake.gif');
+            
+            // Create output directory if it doesn't exist
+            const outputDir = './output';
+            if (!fs.existsSync(outputDir)) {
+              fs.mkdirSync(outputDir, { recursive: true });
+            }
+            
+            // Write files to output directory
+            fs.writeFileSync(path.join(outputDir, 'github-contribution-grid-snake.svg'), svgContent);
+            fs.writeFileSync(path.join(outputDir, 'github-contribution-grid-snake.gif'), gifContent);
+            
+            // Commit and push
+            const { execSync } = require('child_process');
+            execSync('git config --local user.email "action@github.com"');
+            execSync('git config --local user.name "GitHub Action"');
+            execSync('git add output/');
+            execSync('git commit -m "Update contribution snake" || exit 0');
+            execSync('git push');
