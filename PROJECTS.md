@@ -103,6 +103,28 @@
 
 **Stack**: Node.js, Express, Redis, Docker, Kubernetes
 
+### ☁️ AWS VPC Terraform Module
+**Description**: Production-ready Terraform module for creating secure, scalable AWS VPC infrastructure.
+
+**Technologies**:
+- Terraform (>= 1.0)
+- AWS Provider (~> 5.0)
+- GitHub Actions CI/CD
+- Multi-AZ architecture
+
+**Features**:
+- Multi-AZ support with automatic subnet distribution
+- Public & private subnets with proper routing
+- Optional NAT gateways for private subnet internet access
+- Pre-configured security groups for web and database tiers
+- Optional VPC Flow Logs for network monitoring
+- Comprehensive tagging and cost optimization
+- GitHub Actions workflow with automated testing
+
+**Impact**: Streamlines AWS VPC deployment with best practices and security guidelines.
+
+**Repository**: [terraform-aws-vpc-module](https://github.com/Jkudjo/terraform-aws-vpc-module)
+
 ---
 
 ## 🎵 Creative Projects
@@ -151,10 +173,10 @@
 - **Code Quality**: 95%+ test coverage
 
 ### 📊 Technology Distribution
-- **Frontend**: 35%
-- **Backend**: 30%
-- **DevOps**: 20%
-- **Cloud**: 15%
+- **Frontend**: 30%
+- **Backend**: 25%
+- **DevOps**: 25%
+- **Cloud/Infrastructure**: 20%
 
 ---
 
