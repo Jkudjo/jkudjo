@@ -2,6 +2,14 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Hello+World!+%F0%9F%91%8B;I'm+Philip+Kumah+Junior;Full+Stack+Developer;DevOps+Engineer;Cloud+Architect;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
+---
+
+## 🎯 **Senior DevOps & SRE Engineer | Cloud Infrastructure | CI/CD Automation | Remote-First**
+
+> **I build scalable, secure systems across AWS, GCP, and Azure. Passionate about infrastructure-as-code, Kubernetes orchestration, and clean automation. Let's connect.**
+
+---
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Philip%20Kumah%20Junior&fontSize=50&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20DevOps%20Engineer%20%7C%20Cloud%20Architect&descAlignY=55&descAlign=50" />
 </div>
@@ -39,6 +47,23 @@ const philip = {
   funFact: "I love playing Piano, Bass, Guitar, and Saxophone! 🎵"
 };
 ```
+
+---
+
+## 💼 Professional Expertise
+
+### 🎯 **Core Competencies**
+- **DevOps & SRE**: CI/CD pipelines, infrastructure automation, monitoring & alerting
+- **Cloud Platforms**: AWS, GCP, Azure with multi-cloud architecture experience
+- **Containerization**: Docker, Kubernetes orchestration, microservices deployment
+- **Infrastructure as Code**: Terraform, Ansible, GitOps workflows
+- **Full Stack Development**: React, Node.js, Python, TypeScript, modern web technologies
+
+### 🏆 **Key Achievements**
+- Built scalable cloud-native applications serving thousands of users
+- Implemented automated CI/CD pipelines reducing deployment time by 80%
+- Designed and deployed Kubernetes clusters across multiple cloud providers
+- Created infrastructure automation tools improving team productivity
 
 ---
 
@@ -189,26 +214,26 @@ const philip = {
   <table>
     <tr>
       <td width="50%">
-        <h3>🔧 DevOps Automation</h3>
-        <p>Comprehensive CI/CD pipelines and infrastructure automation</p>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=YOUR_DEVOPS_REPO&theme=tokyonight" alt="DevOps Project" />
+        <h3>🐳 Dockerns</h3>
+        <p>Docker wrapper project for streamlined container management</p>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=Dockerns&theme=tokyonight" alt="Dockerns Project" />
       </td>
       <td width="50%">
-        <h3>☁️ Cloud Architecture</h3>
-        <p>Scalable cloud-native applications and microservices</p>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=YOUR_CLOUD_REPO&theme=tokyonight" alt="Cloud Project" />
+        <h3>🔍 Eureka</h3>
+        <p>TypeScript repository with advanced SEO metadata handling</p>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=eureka&theme=tokyonight" alt="Eureka Project" />
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <h3>🎨 Full Stack Development</h3>
-        <p>Modern web applications with cutting-edge technologies</p>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=YOUR_FULLSTACK_REPO&theme=tokyonight" alt="Full Stack Project" />
+        <h3>🤖 OpenManus</h3>
+        <p>Latest innovative project showcasing cutting-edge development</p>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=OpenManus&theme=tokyonight" alt="OpenManus Project" />
       </td>
       <td width="50%">
-        <h3>🤖 Automation Solutions</h3>
-        <p>Intelligent automation for enhanced productivity</p>
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=YOUR_AUTOMATION_REPO&theme=tokyonight" alt="Automation Project" />
+        <h3>⚙️ Infrastructure as Code</h3>
+        <p>Terraform modules and Kubernetes configurations</p>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=jkudjo&repo=jkudjo&theme=tokyonight" alt="Profile Repository" />
       </td>
     </tr>
   </table>
@@ -246,16 +271,22 @@ const philip = {
   <a href="https://www.linkedin.com/in/philip-kumah-junior/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:philip.kumah.junior@example.com">
+  <a href="mailto:philipkumahjr@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://vertaforge.com/contact">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=portfolio&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/jkudjo">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://twitter.com/yourusername">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
 </div>
+
+### 📄 Professional Resources
+- **📧 Email**: [philipkumahjr@gmail.com](mailto:philipkumahjr@gmail.com)
+- **💼 LinkedIn**: [Philip Kumah Junior](https://www.linkedin.com/in/philip-kumah-junior/)
+- **🌐 Portfolio**: [VertaForge](https://vertaforge.com/contact)
+- **📱 Available for**: Remote opportunities, consulting, collaboration
 
 ---
 
