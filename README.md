@@ -259,14 +259,6 @@ const philip = {
 
 ---
 
-## 📝 Latest Blog Posts
-
-<div align="center">
-  <img src="https://github-readme-medium.vercel.app/latest?username=YOUR_MEDIUM_USERNAME&theme=tokyonight" alt="Latest Blog Posts" />
-</div>
-
----
-
 ## 💡 Random Dev Quote
 
 <div align="center">
