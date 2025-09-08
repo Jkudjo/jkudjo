@@ -125,6 +125,28 @@
 
 **Repository**: [terraform-aws-vpc-module](https://github.com/Jkudjo/terraform-aws-vpc-module)
 
+### 🤖 Infrastructure Cost Predictor & Optimizer
+**Description**: AI-powered cloud cost prediction and optimization platform using machine learning and advanced analytics.
+
+**Technologies**:
+- Python 3.11, FastAPI, TensorFlow, Scikit-learn
+- AWS Cost Explorer API, PostgreSQL, Redis
+- Docker, GitHub Actions CI/CD
+- Multi-cloud support (AWS, Azure, GCP)
+
+**Features**:
+- ML-based cost forecasting (LSTM + Random Forest models)
+- Smart budget management with multi-channel alerts (Slack, Email, Teams)
+- Advanced ROI calculation for infrastructure changes
+- Cost anomaly detection and optimization recommendations
+- Real-time cost monitoring and trend analysis
+- Comprehensive REST API with dashboard endpoints
+- Automated security scanning and performance testing
+
+**Impact**: Helps companies save thousands of dollars on cloud infrastructure costs through intelligent prediction and optimization.
+
+**Repository**: [infrastructure-cost-predictor](https://github.com/Jkudjo/infrastructure-cost-predictor)
+
 ---
 
 ## 🎵 Creative Projects
@@ -173,10 +195,11 @@
 - **Code Quality**: 95%+ test coverage
 
 ### 📊 Technology Distribution
-- **Frontend**: 30%
+- **Frontend**: 25%
 - **Backend**: 25%
 - **DevOps**: 25%
-- **Cloud/Infrastructure**: 20%
+- **Cloud/Infrastructure**: 15%
+- **AI/ML**: 10%
 
 ---
 
