@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 **Senior DevOps & SRE Engineer | Cloud Infrastructure | CI/CD Automation | Remote-First**
+## 🎯 **DevOps & SRE Engineer | Cloud Infrastructure | CI/CD Automation | Remote-First**
 
 > **I build scalable, secure systems across AWS, GCP, and Azure. Passionate about infrastructure-as-code, Kubernetes orchestration, and clean automation. Let's connect.**
 
