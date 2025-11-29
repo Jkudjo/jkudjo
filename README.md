@@ -7,9 +7,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Philip%20Kumah%20Junior&fontSize=50&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20DevOps%20Engineer%20%7C%20Cloud%20Architect&descAlignY=55&descAlign=50" />
-</div>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=jkudjo&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
