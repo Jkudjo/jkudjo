@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Hello+World!+%F0%9F%91%8B;I'm+Philip+Kumah+Junior;Full+Stack+Developer;DevOps+Engineer;Cloud+Architect;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00D4FF&center=true&vCenter=true&width=435&lines=Hello+World!+%F0%9F%91%8B;" alt="Typing SVG" />
 </div>
 
 ---
 
-## 🎯 **DevOps & SRE Engineer | Cloud Infrastructure | CI/CD Automation | Remote-First**
+## 🎯 **DevOps & SRE Engineer **
 
 > **I build scalable, secure systems across AWS, GCP, and Azure. Passionate about infrastructure-as-code, Kubernetes orchestration, and clean automation. Let's connect.**
 
