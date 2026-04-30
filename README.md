@@ -1,8 +1,6 @@
 
 ---
 
-## 🎯 **DevOps & SRE Engineer **
-
 > **I build scalable, secure systems across AWS, GCP, and Azure. Passionate about infrastructure-as-code, Kubernetes orchestration, and clean automation. Let's connect.**
 
 ---
