@@ -1,7 +1,10 @@
 
 ---
 
-> **I build scalable, secure systems across AWS, GCP, and Azure. Passionate about infrastructure-as-code, Kubernetes orchestration, and clean automation. Let's connect.**
+> **I keep production systems alive.
+When something breaks, I trace it, fix it, and prevent it from happening again.
+I also test systems by trying to break them, then close the gaps.
+No theory. Just real systems, real failures, and fixes.**
 
 ---
 
